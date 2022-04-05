@@ -3,8 +3,8 @@ def Fun(x):
        return 1
    else:
        return 0
-a=int(input('起始值'))
-b=int(input('结束值'))
+a=int(input('The starting value'))
+b=int(input('The end value'))
 s=0
 for i in range(a,b):
    if Fun(i):
